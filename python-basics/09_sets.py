@@ -1,0 +1,12 @@
+my_set = {"red", "green", "blue"}
+print(my_set)
+print("red" in my_set)
+print("yellow" in my_set)
+my_set.add("yellow")
+print(my_set)
+my_set.remove("red")
+print(my_set)
+my_set.discard("green")
+print(my_set)
+my_set.clear()
+print(my_set)

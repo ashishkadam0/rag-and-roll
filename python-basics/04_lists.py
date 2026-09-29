@@ -1,0 +1,13 @@
+languages = ["Python", "JavaScript", "Java", "C++"]
+print(languages)
+print(languages[0])
+print("imp-",languages[-1])
+print(len(languages))
+languages.append("Go")
+print(languages)
+languages.remove("Java")
+print(languages)
+languages.sort()
+print(languages)
+languages.reverse()
+print(languages)
